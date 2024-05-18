@@ -10,13 +10,13 @@ import java.io.Serializable;
 @Entity(name = "workout_history_details")
 public class WorkoutHistoryDetails implements Serializable{
     @Id
-    Long WorkoutId;
-    Long Date;
-    Long ExerciseId;
-    String ExerciseName;
-    Long SetId;
-    int Reps;
-    int SetValue;
-    String SetType;
-    int PrValue;
+    Long workoutId;
+    Long date;
+    Long exerciseId;
+    String exerciseName;
+    Long setId;
+    int reps;
+    int setValue;
+    String setType;
+    int prValue;
 }

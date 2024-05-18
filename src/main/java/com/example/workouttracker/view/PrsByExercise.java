@@ -12,6 +12,6 @@ public class PrsByExercise implements Serializable{
     @Id
     Long exerciseInfoId;
     String exerciseName;
-    Long Date;
-    Long PrValue;
+    Long date;
+    Long prValue;
 }
