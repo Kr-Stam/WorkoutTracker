@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface WorkoutHistoryDetailsRepository extends JpaRepository<WorkoutHistoryDetails, Long> {
 
-    WorkoutHistoryDetails findByExerciseInfoId(Long id);
+    WorkoutHistoryDetails findByWorkoutId(Long id);
     List<WorkoutHistoryDetails> findAll();
 }
