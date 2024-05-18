@@ -6,6 +6,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+@Data
 @Entity(name = "workout_templates_details")
 public class WorkoutTemplatesDetails implements Serializable {
     @Id
@@ -15,7 +16,7 @@ public class WorkoutTemplatesDetails implements Serializable {
     Long ExerciseId;
     String ExerciseName;
     Long SetId;
-    Long Reps;
-    Long SetValue;
+    int Reps;
+    int SetValue;
     String SetType;
 }

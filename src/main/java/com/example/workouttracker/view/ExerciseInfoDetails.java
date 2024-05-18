@@ -11,7 +11,6 @@ import java.io.Serializable;
 public class ExerciseInfoDetails implements Serializable {
     @Id
     Long exerciseInfoId;
-
     String exerciseName;
     String exerciseDescription;
     String imageSrc;
